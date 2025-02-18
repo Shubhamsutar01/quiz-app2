@@ -1,0 +1,13 @@
+<form onsubmit="fun(event)">
+    <input type="radio" name="gen" value="m"/>Male
+<input type="radio" name="gen" value="f"/>Female
+<input type="radio" name="gen" value="o"/>Other
+<input type="submit" />
+</form>
+
+<script>
+    function fun(event){
+        let g= event.target.gen.value;
+        alert("form submitted"+g)
+    }
+</script>
